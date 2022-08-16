@@ -62,7 +62,6 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
-
   color: #212121;
 }
 
@@ -96,4 +95,53 @@
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
+}
+
+.without {
+  list-style-type: none;
+}
+
+h1 {
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 250px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+}
+
+button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.textbutton {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.container {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  background: #2f303a;
 }
