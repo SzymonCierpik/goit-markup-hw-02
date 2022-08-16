@@ -1,3 +1,12 @@
+.topline {
+  position: absolute;
+  width: 1600px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+}
+
 .logo {
   position: absolute;
   width: 145px;
@@ -87,13 +96,13 @@
   height: 16px;
   left: 1263px;
   top: 32px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: #757575;
 }
 
@@ -102,21 +111,19 @@
 }
 
 h1 {
-position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 250px;
-
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-text-align: center;
-letter-spacing: 0.06em;
-
-color: #FFFFFF;
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 250px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 
 button {
@@ -138,10 +145,19 @@ button {
 
 .container {
   position: absolute;
+  margin: 0;
   width: 1600px;
   height: 600px;
-  left: 0px;
+  left: 100px;
   top: 80px;
 
   background: #2f303a;
+}
+div.container4 p {
+  background: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
