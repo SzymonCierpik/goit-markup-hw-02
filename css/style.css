@@ -1,5 +1,6 @@
 :root {
   --blackhawk: #000000;
+  --blackho: #212121;
   --kamikaze: #2196f3;
   --grayhey: #757575;
   --whitehihi: #ffffff;
@@ -8,19 +9,27 @@
 
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  color: #757575;
+  color: var(--grayhey);
   font-size: 14px;
   letter-spacing: 0.03em;
 }
 
+h3 {
+  color: var(--blackho);
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size:36px;
+}
+
 .section {
-  height: 200px;
+  height: 150px;
   width: 1600px;
   left: 0px;
   top: 80px;
   border-radius: 0px;
   background-color: var(--shark);
   color: var(--whitehihi);
+
 }
 
 body {
@@ -90,6 +99,7 @@ li {
   width: 270px;
   height: 75px;
   line-height: 24px;
+  color: var(--grayhey);
 }
 
 .lorem-ipsum {
@@ -97,6 +107,7 @@ li {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-align: left;
+  color: var(--blackho);
 }
 
 .colorweb {
@@ -108,7 +119,7 @@ button {
   height: 50px;
   left: 700px;
   top: 430px;
-  background: #2196f3;
+  background: var(--kamikaze);
   border-style: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -116,6 +127,15 @@ button {
 }
 
 .textbutton {
-  color: white;
+  color: var(--whitehihi);
   font-weight: 700;
+}
+
+.text-picture {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: var(--blackhawk);
 }
