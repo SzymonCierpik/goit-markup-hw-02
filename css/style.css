@@ -14,26 +14,29 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.193;
   text-decoration: none;
   color: #000000;
 }
 
 a:link {
   color: #000;
-  font-weight:500
+  font-weight: 500;
 }
 
 a:focus {
   color: #2196f3;
+  font-weight: 500;
 }
 
 a:visited {
   color: #000;
+  font-weight: 500;
 }
 
 a:hover {
   color: #2196f3;
+  font-weight: 500;
 }
 
 .position-li {
@@ -57,8 +60,10 @@ button {
   left: 700px;
   top: 430px;
   background: #2196f3;
+  border-style: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .textbutton {
