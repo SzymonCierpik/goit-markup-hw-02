@@ -1,8 +1,60 @@
+:root {
+  --blackhawk: #000000;
+  --kamikaze: #2196f3;
+  --grayhey: #757575;
+  --whitehihi: #ffffff;
+  --shark: #2f303a;
+}
+
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #757575;
   font-size: 14px;
   letter-spacing: 0.03em;
+}
+
+.section {
+  height: 200px;
+  width: 1600px;
+  left: 0px;
+  top: 80px;
+  border-radius: 0px;
+  background-color: var(--shark);
+  color: var(--whitehihi);
+}
+
+body {
+  background-color: var(--whitehihi);
+}
+
+li {
+  list-style-type: none;
+}
+
+.link {
+  color: var(--blackhawk);
+  font-weight: 500;
+}
+
+.link-2 {
+  color: var(--grayhey);
+  font-weight: 500;
+}
+
+.link-2:hover {
+  color: var(--kamikaze);
+}
+
+.link-2:focus {
+  color: var(--kamikaze);
+}
+
+.link:hover {
+  color: var(--kamikaze);
+}
+
+.link:focus {
+  color: var(--kamikaze);
 }
 
 .nodecor {
@@ -16,27 +68,17 @@ body {
   font-size: 26px;
   line-height: 1.193;
   text-decoration: none;
-  color: #000000;
+  color: var(--blackhawk);
 }
 
-a:link {
-  color: #000;
-  font-weight: 500;
-}
-
-a:focus {
-  color: #2196f3;
-  font-weight: 500;
-}
-
-a:visited {
-  color: #000;
-  font-weight: 500;
-}
-
-a:hover {
-  color: #2196f3;
-  font-weight: 500;
+.logo-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.193;
+  text-decoration: none;
+  color: var(--whitehihi);
 }
 
 .position-li {
@@ -51,7 +93,7 @@ a:hover {
 }
 
 .colorweb {
-  color: #2196f3;
+  color: var(--kamikaze);
 }
 
 button {
