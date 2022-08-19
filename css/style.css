@@ -17,7 +17,6 @@ body {
 
 h3 {
   color: var(--blackho);
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
 }
@@ -171,22 +170,20 @@ li {
   color: var(--blackhawk);
 }
 
-.font1 {
-font-family: Roboto;
-font-size: 18px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0.06em;
-text-align: left;
-
+p[class="text-picture"] {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-align: left;
 }
 
 .font2 {
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0.03em;
-text-align: left;
-
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
