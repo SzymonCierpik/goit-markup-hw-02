@@ -70,6 +70,11 @@ li {
   text-decoration: none;
 }
 
+.decor {
+  color: var(--kamikaze);
+}
+
+
 .logo {
   font-family: "Raleway";
   font-style: normal;
