@@ -1,0 +1,118 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --black-second: #212121;
+  --gray-wallpaper: #2f303a;
+  --gray-footer: rgba(255, 255, 255, 0.6);
+  --gray: #757575;
+  --blue: #2196f3;
+}
+
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+  letter-spacing: 0.03em;
+  color: var(--gray);
+}
+
+.logo {
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-size: 26px;
+  line-height: 1, 19;
+  /* line-height ma wykrzyknik "!" w inspektorze w przeglądarce */
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: var(--black);
+}
+
+.logo--color {
+  color: var(--blue);
+}
+
+.menu {
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+}
+
+.menu__item {
+  text-decoration: none;
+  list-style: none;
+  color: var(--black-second);
+}
+
+.menu__contact {
+  text-decoration: none;
+  list-style: none;
+  color: var(--gray);
+}
+
+.menu__item:hover,
+.menu__item:focus,
+.menu__contact:hover,
+.menu__contact:focus {
+  color: var(--blue);
+}
+
+.wallpaper {
+  background-color: var(--gray-wallpaper);
+  text-align: center;
+  color: var(--white);
+}
+
+.button__item {
+  background: var(--blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  left: 700px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1, 86;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--white);
+}
+/* h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1,36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1,17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--black-second);
+}
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1,14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black-second);
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1,7
+  color: var(--gray);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+} */
