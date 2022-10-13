@@ -19,7 +19,7 @@ body {
   text-decoration: none;
   font-family: 'Raleway';
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   /* line-height ma wykrzyknik "!" w inspektorze w przeglądarce */
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -34,7 +34,7 @@ body {
   list-style: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 14;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -73,11 +73,12 @@ body {
   left: 700px;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1, 86;
+  line-height: 1.86;
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--white);
 }
+
 /* h1 {
   font-weight: 900;
   font-size: 44px;
