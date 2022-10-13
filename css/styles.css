@@ -5,6 +5,7 @@
   --gray-second: #2f303a;
   --gray-footer: rgba(255, 255, 255, 0.6);
   --gray: #757575;
+  --button-color: #f5f4fa;
   --blue: #2196f3;
 }
 
@@ -23,7 +24,9 @@ body {
 .article,
 .heading__image,
 .our-team__person,
-.address {
+.address,
+.btn,
+.pictures {
   list-style: none;
 }
 
@@ -96,6 +99,12 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--white);
+}
+
+.button__item:focus,
+.button__item:hover {
+  background: var(--button-color);
+  color: var(--blue);
 }
 
 .article__heading {
@@ -171,6 +180,71 @@ body {
   color: var(--white);
 }
 
+.btn--theme {
+  border-radius: 4px;
+  background-color: var(--button-color);
+  color: var(--black-second);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border: none;
+}
+
+.btn__all {
+  width: 121px;
+  height: 38px;
+}
+
+.btn__sites {
+  width: 93px;
+  height: 38px;
+}
+
+.btn__apps {
+  width: 114px;
+  height: 38px;
+}
+
+.btn-design {
+  width: 91px;
+  height: 38px;
+}
+.btn-marketing {
+  width: 121px;
+  height: 38px;
+}
+.btn__all:hover,
+.btn__all:focus,
+.btn__sites:hover,
+.btn__sites:focus,
+.btn__apps:hover,
+.btn__apps:focus,
+.btn-design:hover,
+.btn-design:focus,
+.btn-marketing:hover,
+.btn-marketing:focus {
+  background-color: var(--blue);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.pictures--heading {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black-second);
+}
+
+.pictrures--summary {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--gray);
+}
 /* h1 {
   font-weight: 900;
   font-size: 44px;
