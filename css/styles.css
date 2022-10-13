@@ -58,6 +58,10 @@ body {
   color: var(--black-second);
 }
 
+.menu__item--active {
+  color:var(--blue);
+}
+
 .menu__contact {
   text-decoration: none;
   list-style: none;
