@@ -2,7 +2,7 @@
   --white: #ffffff;
   --black: #000000;
   --black-second: #212121;
-  --gray-wallpaper: #2f303a;
+  --gray-second: #2f303a;
   --gray-footer: rgba(255, 255, 255, 0.6);
   --gray: #757575;
   --blue: #2196f3;
@@ -18,6 +18,13 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
   color: var(--gray);
+}
+
+.article,
+.heading__image,
+.our-team__person,
+.address {
+  list-style: none;
 }
 
 .logo {
@@ -62,7 +69,7 @@ body {
 }
 
 .wallpaper {
-  background-color: var(--gray-wallpaper);
+  background-color: var(--gray-second);
   text-align: center;
 }
 
@@ -91,8 +98,7 @@ body {
   color: var(--white);
 }
 
-.article {
-  list-style: none;
+.article__heading {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -112,11 +118,7 @@ body {
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  text-align: center;
   color: var(--black-second);
-}
-.heading__image {
-  list-style: none;
 }
 
 .our-team {
@@ -124,16 +126,10 @@ body {
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  text-align: center;
   color: var(--black-second);
 }
 
-.our-team__person {
-  list-style: none;
-}
-
 .our-team__person--name {
-  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -142,13 +138,37 @@ body {
 }
 
 .our-team__person--specialization {
-  text-align: center;
   color: var(--gray);
   font-weight: 400;
 }
 
-.our-team__person--center {
-  text-align: center;
+.footer--background {
+  background-color: var(--gray-second);
+}
+
+.logo--color-footer {
+  color: var(--white);
+}
+
+.address__item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--gray-footer);
+  font-style: normal;
+}
+.address__item--contact {
+  text-decoration: none;
+  color: var(--gray-footer);
+  font-style: normal;
+}
+
+.address__item:hover,
+.address__item:focus,
+.address__item--contact:hover,
+.address__item--contact:focus {
+  color: var(--white);
 }
 
 /* h1 {

@@ -5,7 +5,7 @@
     <meta name="viewport" content="widht=device-width, initial-scale=1.0" />
     <title>S t u d i o</title>
     <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/modern-normalize.cs" rel="stylesheet" />
+    <link href="css/modern-normalize.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -45,7 +45,7 @@
       <ul>
         <li class="article">
           <article>
-            <h3>LOREM IPSUM</h3>
+            <h3 class="article__heading">LOREM IPSUM</h3>
             <p class="article__summary">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
@@ -54,7 +54,7 @@
         </li>
         <li class="article">
           <article>
-            <h3>LOREM IPSUM</h3>
+            <h3 class="article__heading">LOREM IPSUM</h3>
             <p class="article__summary">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
@@ -63,7 +63,7 @@
         </li>
         <li class="article">
           <article>
-            <h3>LOREM IPSUM</h3>
+            <h3 class="article__heading">LOREM IPSUM</h3>
             <p class="article__summary">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
@@ -72,7 +72,7 @@
         </li>
         <li class="article">
           <article>
-            <h3>LOREM IPSUM</h3>
+            <h3 class="article__heading">LOREM IPSUM</h3>
             <p class="article__summary">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
               sodales dui. Interdum et malesuada
@@ -104,7 +104,7 @@
         <h2 class="our-team">Nasz zespół</h2>
         <ul class="our-team__person">
           <li>
-            <figure class="our-team__person--center">
+            <figure>
               <img src="images/person1.jpg" width="270" height="260" alt="Product-Designer" />
               <figcaption class="our-team__person--name">
                 <h3>John Doe</h3>
@@ -112,9 +112,8 @@
               </figcaption>
             </figure>
           </li>
-
           <li>
-            <figure class="our-team__person--center">
+            <figure>
               <img src="images/person2.jpg" width="270" height="260" alt="Fronted-Developer" />
               <figcaption class="our-team__person--name">
                 <h3>John Doe</h3>
@@ -123,7 +122,7 @@
             </figure>
           </li>
           <li>
-            <figure class="our-team__person--center">
+            <figure>
               <img src="images/person3.jpg" width="270" height="260" alt="Marketing" />
               <figcaption class="our-team__person--name">
                 <h3>John Doe</h3>
@@ -132,7 +131,7 @@
             </figure>
           </li>
           <li>
-            <figure class="our-team__person--center">
+            <figure>
               <img src="images/person4.jpg" width="270" height="260" alt="UI-Designer" />
               <figcaption class="our-team__person--name">
                 <h3>John Doe</h3>
@@ -147,14 +146,24 @@
     <!-- F O O T E R  -->
     <!--  -->
     <footer>
-      <a href="/">WebStudio</a>
-      <address>
-        <ul>
-          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li><a href="mailto:nfo@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-        </ul>
-      </address>
+      <div class="footer--background">
+        <a href="/" class="logo"
+          ><span class="logo--color">Web</span><span class="logo--color-footer">Studio</span></a
+        >
+        <address>
+          <ul class="address">
+            <li class="address__item">m. Warszawa, Aleje Jerozolimskie 21</li>
+            <li class="address__item">
+              <a href="mailto:nfo@devstudio.com" class="address__item--contact"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="address__item">
+              <a href="tel:+48111111111" class="address__item--contact">+48 111 111 111</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
